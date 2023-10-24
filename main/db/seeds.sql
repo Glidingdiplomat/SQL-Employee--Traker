@@ -23,3 +23,4 @@ VALUES
             ('Ashley' 'Rodriquez', 3, NULL),
             ('Kevin', 'Tupik', 4, 3, NULL),
             ('kunal', 'Singh', 5, NULL),
+            ('Malia', 'Brown', 6, 5),
