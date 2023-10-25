@@ -14,7 +14,7 @@ CREATE TABLE role {
     salary DECIMAL UNIQUE NOT NULL,
     department_id INT UNSIGNED NOT NULL,
     INDEX
-}
+};
 
 CREATE TABLE employee {
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -23,5 +23,8 @@ CREATE TABLE employee {
     role_id INT UNSIGNED NOT NULL,
     manager_id INT UNSIGNED,
     INDEX role_id (role_id),
-    INDEX ma
-}
+    INDEX manager_id (manager_id),
+    CONSTRAINT fk_role FOREIGN KEY (role_id) REFERENCES role(id) ON DELETE CASCADE,
+    CONSTRAINT fk_role FOREIGN KEY (manager_id) REFERENCES employee(id) ON DELETE SET NULL
+
+};
