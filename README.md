@@ -1,6 +1,9 @@
 # SQL-Employee-Traker
  This is a program to track employees within the company
 
+ # User Story
+ I'm a company and i want a program to organize and keep track of employees for business related purposes.
+
 #Images 
 ![Screenshot 2023-11-25 at 10 59 56 PM](https://github.com/Glidingdiplomat/SQL-Employee--Traker/assets/134241357/8ea291c5-81bb-408f-b48b-1079034aba7c)
 
