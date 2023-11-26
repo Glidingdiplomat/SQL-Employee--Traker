@@ -19,3 +19,6 @@ https://www.w3schools.com/sql/sql_create_table.asp - helped with table examples
 https://www.w3schools.com/sql/sql_primarykey.asp - explained on identify esch key in the table.
 https://www.w3schools.com/sql/sql_ref_keywords.asp - for keyword referneces
 https://www.w3schools.com/sql/sql_default.asp - document on setting default value in a column.
+
+#Link
+https://github.com/Glidingdiplomat/SQL-Employee--Traker/tree/main
